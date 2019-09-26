@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.nav_position {
+    position: fixed;
+    z-index: 1000;
+    display: block;
+    background-color: aquamarine;
+    width: 100%;
+    height: 80px;
+    padding-bottom:;
+}
+.content {
+    display: block;
+    width: 100%;
+    min-height: 100%;
+    float: left;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background: blue;
+}
+.first_paragraf {
+   display: inline-block;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    background-color: bisque ;
+    float: left;
+}
+.second_paragraf {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    background-color: goldenrod ;
+    float: left;
+}
+footer {
+    float: left;
+}
